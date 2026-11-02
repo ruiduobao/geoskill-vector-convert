@@ -15,3 +15,6 @@ build/
 *.gpkg
 *.csv
 !tests/**/*.py
+
+# Upgrade v1: never commit caches or partial downloads
+*.part
